@@ -1,0 +1,17 @@
+{
+  "name": "agent-snip-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/javascript"
+  ],
+  "scripts": {
+    "test": "node --test packages/javascript/test/*.test.mjs",
+    "test:js": "node --test packages/javascript/test/*.test.mjs",
+    "test:python": "python -m unittest discover -s packages/python/tests -v"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

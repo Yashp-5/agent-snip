@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "fallback": "full",
+  "required": ["Safety", "Reporting"],
+  "routes": [
+    {
+      "when": ["deploy", "deployment", "release", "production"],
+      "include": ["Deployment"]
+    },
+    {
+      "when": ["diagnose", "debug", "incident"],
+      "include": ["Diagnosis"]
+    }
+  ]
+}
+

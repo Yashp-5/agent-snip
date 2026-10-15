@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "query": "deploy the service to production",
+      "selected": "service-operations",
+      "mode": "snipped",
+      "includedSections": ["Safety", "Deployment", "Reporting"],
+      "excludedText": "Inspect health, recent changes"
+    },
+    {
+      "query": "review this contract for risky clauses",
+      "selected": "contract-review",
+      "mode": "full",
+      "includedText": "Read the entire agreement"
+    }
+  ]
+}
+

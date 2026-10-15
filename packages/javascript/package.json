@@ -1,0 +1,36 @@
+{
+  "name": "agent-snip",
+  "version": "0.1.0",
+  "description": "Budget-aware context optimization for Agent Skills and LLM tools",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs"
+    }
+  },
+  "bin": {
+    "agent-snip": "./bin/agent-snip.mjs"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agent-skills",
+    "llm",
+    "tokens",
+    "context",
+    "skill-md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashp-5/agent-snip.git"
+  }
+}
+
